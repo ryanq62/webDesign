@@ -1,0 +1,87 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #222222;
+}
+
+.section-title h2::before,
+.section-title h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #3498db;
+  display: inline-block;
+}
+
+.section-title h2::before {
+  margin: 0 15px 10px 0;
+}
+
+.section-title h2::after {
+  margin: 0 0 10px 15px;
+}
+
+.btn-call {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+}
+
+.btn-call:hover {
+  color: #222222;
+  background: #2383c4;
+}
+
+.contact .form-group {
+  margin-bottom: 20px;
+}
+
+.contact .contact-about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  color: #888;
+}
+
+.contact .info {
+  color: #444444;
+}
+
+.btn-submit {
+  background: #3498db;  
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  border: 2px solid #3498db;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.btn-submit:hover {
+  background: #2383c4;
+}
