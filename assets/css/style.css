@@ -56,11 +56,6 @@ h1 {
   background: #2383c4;
 }
 
-/* Aiden Change: margin added to bottom of page */
-.contact {
-  margin-bottom: 40px;
-}
-
 .contact .form-group {
   margin-bottom: 20px;
 }

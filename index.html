@@ -18,7 +18,6 @@
     <link href="assets/css/style.css" rel="stylesheet"/>
 
     <style>
-        /* Move this css to the .css file for consistency unless there's a reason for it to be here */
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
         .ul {
             list-style-type: none;
@@ -42,11 +41,10 @@
 </head>
 
 <body>
-<!-- You should consider adding more spacing between each group of elements. It looks a bit cluttered as it is -->
+
 <div class="container-fluid">
 
     <div class="container-fluid">
-        <!-- You should probably stick to only one home button (either the brand or the button) for consistency's sake. I would just have the brand be the home button and not have a "home button" in the nav, and to indicate that it's active, add a line under the logo (probably by changing the png file to be the same thing with a line under it), but it's up to you. -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top px-2">   
             <a class="navbar-brand" href="#home">
                 <img src="assets/logo.png" alt="Logo" style="width:250px;"/> 
@@ -78,7 +76,7 @@
             </div>
         </nav>
     </div>
-    <!-- making the nav the same color as the section below makes the separation somewhat unclear. You could adress this by adding a dropshadow to the nav, chaning the color of the nav, or changing the color of the section background -->
+
     <section id="home" class="d-flex align-items-center">
 
         <div class="container p-5 my-5 bg-dark">
@@ -86,7 +84,6 @@
                 <div class="col-xl-8 col-lg-7 col-md-12">
                     <h1 style="color:white; font-family: 'Oxygen', sans-serif;">ONLINE COMPETITION MATH PREP</h1>
                     <h4 style="color:white; font-family: 'Oxygen', sans-serif;">by Ryan</h4>
-                    <!-- the "<br>"s look a little weird when changing screen size. I would reccomend using padding/margin so you can more directly customize the spacing (whether than be through multiplying the constants by vw/vh or @media) -->
                     <br/> <br/> <br/>
                     <h2 style="color:white; font-family: 'Oxygen', sans-serif;">Helping You Get the Edge Above Everyone Else!</h2>
                 </div>
@@ -110,8 +107,7 @@
             <div class="row content">   
                 <div class="col-lg-6">
                     <p>Online Competition Math Prep was created by students, for students. As a student who took many math competitions and still loves math, I have a lot of experience and have valuable insights to share across many different topics that can help students gain an edge in math competitions over others.</p>
-                    <!-- Why does this button take you to the top of the page? Shouldn't this lead to a separate link? (if  it's just a placeholder, then ignore this comment-->
-                    <a href="#" class="btn-call">Learn More</a>
+                    <a href="#" class="btn-call">Learn More</a> 
                 </div>
                 <div class="col-lg-3 pt-4 pt-lg-0">
                     <img src="assets/mathcounts.png" style="width:100%" alt="Mathcounts"/>
@@ -140,6 +136,7 @@
                         <p>Based in San Diego, California, USA</p>      
                     </div>
                 </div>
+  
   
                 <div class="col-lg-6 col-md-12">
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
