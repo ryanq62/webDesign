@@ -34,6 +34,11 @@ nav {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -76,14 +81,15 @@ nav {
   transition: 0.5s;
   color: #3498db;
   border: 2px solid #3498db;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .btn-call:hover {
-  color: #222222;
+  color: #ffffff;
   background: #2383c4;
 }
 
-/* Aiden Change: margin added to bottom of page */
 .contact {
   margin-bottom: 40px;
 }
